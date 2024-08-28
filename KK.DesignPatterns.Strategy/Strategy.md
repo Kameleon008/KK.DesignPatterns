@@ -67,5 +67,3 @@ classDiagram
 
 # 7. Example
 
-Update
-

@@ -26,7 +26,7 @@ classDiagram
         +displaySpecs()
     }
     
-    class CarBuilder {
+    class ICarBuilder {
         <<interface>>
         +setSeats(count)
         +setEngine(engine)
@@ -44,7 +44,7 @@ classDiagram
         +getResult(): Car
     }
     
-    class SUVBuilder {
+    class ElectricBuilder {
         -car: Car
         +setSeats(count)
         +setEngine(engine)
@@ -64,11 +64,11 @@ classDiagram
         +orderSUV()
     }
     
-    CarManufacturer --> CarBuilder : uses
-    SportsCarBuilder ..|> CarBuilder
-    SUVBuilder ..|> CarBuilder
+    CarManufacturer --> ICarBuilder : uses
+    SportsCarBuilder ..|> ICarBuilder
+    ElectricBuilder ..|> ICarBuilder
     CarManufacturer --> SportsCarBuilder : constructs
-    CarManufacturer --> SUVBuilder : constructs
+    CarManufacturer --> ElectricBuilder : constructs
     CarDealer --> CarManufacturer : orders
     CarDealer --> Car : sells
 ```

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Adapter", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Bridge", "KK.DesignPattern.Bridge\KK.DesignPattern.Bridge.csproj", "{5608F13E-1749-4EB9-BA8D-BFC1406089C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Composite", "KK.DesignPattern.Composite\KK.DesignPattern.Composite.csproj", "{23CC7253-CEF1-4B1B-9942-F0B5D3F5920D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5608F13E-1749-4EB9-BA8D-BFC1406089C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5608F13E-1749-4EB9-BA8D-BFC1406089C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5608F13E-1749-4EB9-BA8D-BFC1406089C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CC7253-CEF1-4B1B-9942-F0B5D3F5920D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CC7253-CEF1-4B1B-9942-F0B5D3F5920D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CC7253-CEF1-4B1B-9942-F0B5D3F5920D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CC7253-CEF1-4B1B-9942-F0B5D3F5920D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

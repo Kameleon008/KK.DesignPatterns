@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.AbstractFa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Prototype", "KK.DesignPattern.Prototype\KK.DesignPattern.Prototype.csproj", "{B954AA03-E155-4A0B-9FDF-BBEAA47AA0C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Singleton", "KK.DesignPattern.Singleton\KK.DesignPattern.Singleton.csproj", "{2E8DE429-8B28-47C0-9CEC-A666E95EBBFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B954AA03-E155-4A0B-9FDF-BBEAA47AA0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B954AA03-E155-4A0B-9FDF-BBEAA47AA0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B954AA03-E155-4A0B-9FDF-BBEAA47AA0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8DE429-8B28-47C0-9CEC-A666E95EBBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8DE429-8B28-47C0-9CEC-A666E95EBBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8DE429-8B28-47C0-9CEC-A666E95EBBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8DE429-8B28-47C0-9CEC-A666E95EBBFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

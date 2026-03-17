@@ -60,7 +60,7 @@ classDiagram
     
     Component <|.. ConcreteComponent
     Component <|-- Decorator
-    Decorator --> Component : wraps
+    Decorator ..> Component : holds reference to
     Decorator <|.. ConcreteDecoratorA
     Decorator <|.. ConcreteDecoratorB
 ```

@@ -19,3 +19,19 @@ public static class Program
         app.Run();
     }
 }
+
+
+
+Console.WriteLine("     #######     ");
+Console.WriteLine("   ##       ##   ");
+Console.WriteLine("  #           #  ");
+Console.WriteLine(" #  #########  # ");
+Console.WriteLine(" #  #########  # ");
+Console.WriteLine(" #  #########  # ");
+Console.WriteLine("  #  #######  #  ");
+Console.WriteLine("   #  #####  #   ");
+Console.WriteLine("    #  ###  #    ");
+Console.WriteLine("     #######     ");
+Console.WriteLine("      =====      ");
+Console.WriteLine("      =====      ");
+Console.WriteLine("       ===       "); 

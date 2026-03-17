@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.ChainOfRes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Command", "KK.DesignPattern.Command\KK.DesignPattern.Command.csproj", "{20957112-5CA3-49A6-ABDA-4F0D19DF08D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Iterator", "KK.DesignPattern.Iterator\KK.DesignPattern.Iterator.csproj", "{129D76EC-186B-4BCB-9BA3-7A22277E4557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{20957112-5CA3-49A6-ABDA-4F0D19DF08D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20957112-5CA3-49A6-ABDA-4F0D19DF08D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20957112-5CA3-49A6-ABDA-4F0D19DF08D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129D76EC-186B-4BCB-9BA3-7A22277E4557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129D76EC-186B-4BCB-9BA3-7A22277E4557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129D76EC-186B-4BCB-9BA3-7A22277E4557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129D76EC-186B-4BCB-9BA3-7A22277E4557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

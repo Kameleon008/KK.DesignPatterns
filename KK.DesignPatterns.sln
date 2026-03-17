@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Decorator"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Flyweight", "KK.DesignPattern.Flyweight\KK.DesignPattern.Flyweight.csproj", "{6B2AE48F-DB5E-43CB-9089-354634C1987E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK.DesignPattern.Proxy", "KK.DesignPattern.Proxy\KK.DesignPattern.Proxy.csproj", "{ECB20C3A-D6CE-4A0C-BD92-9819BFA81A51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{6B2AE48F-DB5E-43CB-9089-354634C1987E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B2AE48F-DB5E-43CB-9089-354634C1987E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B2AE48F-DB5E-43CB-9089-354634C1987E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB20C3A-D6CE-4A0C-BD92-9819BFA81A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB20C3A-D6CE-4A0C-BD92-9819BFA81A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB20C3A-D6CE-4A0C-BD92-9819BFA81A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB20C3A-D6CE-4A0C-BD92-9819BFA81A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
